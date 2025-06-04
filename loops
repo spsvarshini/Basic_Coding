@@ -1,0 +1,159 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+/*
+control statements -
+3 types 1. sequential-line by line would be executed
+2.selection statement-we have to select from the choice.used for decision making.
+like tea,coffee,boost etc.
+if,if else,nested if,else if ladder,switch.
+3.iteration statements-execute repeatedly based on condition
+for,while,do while.
+
+
+1.if statement 
+syntax-if(condition){
+        statement}
+ flowchart-if conditon -true-if statement block will executed
+           if condition -false-after the if block statements will be executed.
+2.if else 
+syntax-if(condition)
+        {
+          if block statement ; 
+        }
+        else{
+         else block statement ;
+        }
+        if else block statement;
+flowchart-if(condition-true)-if block statements will be executed
+          else(condition-false)-else block statements will be executed
+          condition-true||false-after if else block statemnets will be executed        
+
+3.else if ladder-multiple choices
+syntax-if(condition 1)
+        statement1;  
+       else if(condition 2)
+        statement 2;
+       else if(condition 3)
+        statement 3;.......
+       else(condition)
+        statement n;
+
+      statement A;  
+flowchart-if(condition 1 -true)-statement 1 will be executed
+             (condition 1- false)-go to condition 2 until n statemnets will be executed
+
+4.nested if& nested if-else-more than one condition.
+we have more conditons then they are depend upon each other
+syntax
+if()//it must be true then we will go to inner if
+{
+    if()
+    {
+    if()
+    }
+}
+statement x;
+flowchart-if(condition1-true)-go to conditon 2...
+nested if else syntax
+if(condition 1)
+{
+    if(condition 2)
+    {
+    inner if stement of if block
+    }
+    else()
+    {
+    inner else statement of if block
+    }
+else
+   {
+    if(condition3)
+    {
+    ----
+    }
+    else()
+    {
+    ----
+    }
+   }
+}
+
+5.switch case statement
+syntax-switch(expression)
+      {
+      case 1:statement1;
+            break;
+      case 2:statement2;
+            break;....
+    default:default statement;
+            break;
+      }
+
+loops:repeating same tasks again and again
+1.initialisation
+2.condition
+3.update
+they are 2 types
+*entry controlled loop-if condition is true then enter into the loop otherwise out of the loop
+*exit controlled loop-if enter into the loop then condition is checked if condition is true then update in the loop
+
+1.for loop-in for loop only two semicolumns are allowed
+syntax-for(exp1,exp2,exp3)//iterations known
+       {
+        //body
+       }
+2.while loop-entry controlled loop
+syntax-while(condition)//iterations doesnt knowm
+       {
+       //statements;
+       }
+3.do-while loop-exit comtrolled loop
+syntax-do{
+            statement;
+          }while(condition);
+          {
+    
+          }
+4.range based for loop
+syntax-
+for(range-declaration:range-expression)
+{
+    statement(s);
+}
+range declaration-variable declaration
+eg-int a[]={1,2,3,4,5}//here we can take one iterator
+  for(int b:a)//no need to update in array
+  {
+    cout<<b;
+  }
+eg2-for(i=0;i<3;i++)//must update in array
+    {
+    cout<<a[i];
+    }
+vector<datatype>name=value of vector//vector-dynamic array
+
+
+break and continue-keywords used in loops-used in loops and switch
+break-to jump out of the loop
+continue-used within loops
+eg-for(inst,condition,update)
+{
+    //code
+    if(condition)
+    continue;
+    //code
+}
+
+*infinite loops-endless loop
+->loop has no termination  condition
+->loop has termination condition that cant meet
+->loop has a condition that instructs to start over.
+->used in mobile designing etc
+
+*nested loops-loop within the loop
+-used in multidimensional arrays 
+*/ 
+
+
+}
